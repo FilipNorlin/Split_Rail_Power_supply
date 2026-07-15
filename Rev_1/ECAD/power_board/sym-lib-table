@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "power_symbols")(type "KiCad")(uri "/Users/filipnorlin/Documents/Github/github_FilipNorlin/Split_Rail_Power_supply/Rev_1/ECAD/Kicad_lib/Symbols/power_symbols.kicad_sym")(options "")(descr ""))
+)
