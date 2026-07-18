@@ -1681,7 +1681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16b3f519-d033-4eb6-b149-af62029e8dd0")
-		(property "Reference" "U13"
+		(property "Reference" "U29"
 			(at 144.78 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1779,7 +1779,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/ff88370b-1696-4e04-941c-ae5f855f9f1d"
-					(reference "U13")
+					(reference "U29")
 					(unit 5)
 				)
 			)
@@ -1797,7 +1797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fdc6919-9fba-4778-9b51-255fe7cdda14")
-		(property "Reference" "C41"
+		(property "Reference" "C83"
 			(at 144.78 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1817,7 +1817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.59 28.2448 0)
 			(hide yes)
 			(show_name no)
@@ -1859,7 +1859,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/ff88370b-1696-4e04-941c-ae5f855f9f1d"
-					(reference "C41")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -1876,7 +1876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d6a2574-38e9-4427-b892-ae56158541d9")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0191"
 			(at 130.556 24.384 0)
 			(hide yes)
 			(show_name no)
@@ -1936,7 +1936,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/ff88370b-1696-4e04-941c-ae5f855f9f1d"
-					(reference "#PWR029")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -1954,7 +1954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6817e9ac-185b-466a-8085-4792561cefc2")
-		(property "Reference" "U13"
+		(property "Reference" "U29"
 			(at 88.9 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2052,7 +2052,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/ff88370b-1696-4e04-941c-ae5f855f9f1d"
-					(reference "U13")
+					(reference "U29")
 					(unit 2)
 				)
 			)
@@ -2070,7 +2070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dadb9508-0dec-4ad0-b198-394d3cd0b31c")
-		(property "Reference" "U13"
+		(property "Reference" "U29"
 			(at 88.9 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2168,7 +2168,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/ff88370b-1696-4e04-941c-ae5f855f9f1d"
-					(reference "U13")
+					(reference "U29")
 					(unit 1)
 				)
 			)
@@ -2185,7 +2185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebf1dcab-440c-48d1-b806-26b5b7c75481")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0192"
 			(at 158.496 44.196 0)
 			(hide yes)
 			(show_name no)
@@ -2245,7 +2245,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/ff88370b-1696-4e04-941c-ae5f855f9f1d"
-					(reference "#PWR030")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)

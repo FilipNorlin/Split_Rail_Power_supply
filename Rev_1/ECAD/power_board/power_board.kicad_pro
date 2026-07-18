@@ -689,11 +689,11 @@
           "show": false
         }
       ],
-      "filter_string": "TH",
+      "filter_string": "C",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
+      "sort_asc": true,
       "sort_field": "Value"
     },
     "bus_aliases": {},
@@ -745,7 +745,7 @@
         "uuid": "c8aad44b-d397-4b10-8f2c-430938609242"
       }
     ],
-    "used_designators": "SW1-2,J2-4,U3-4,U11-16,F2,FB1,Q1,#PWR12-14,#PWR29-31,#PWR46-48,#PWR51-145,D7-9,D18-25,C2-3,C18-20,C28-44,R6-10,R12-13,R23-28,R31-46",
+    "used_designators": "TH1-7,SW1-2,F1-2,Q1-9,T1,#PWR1-194,Y1,U1-29,D1-38,C1-84,M1-2,R1-113,J1-5,K1-2,L1-4,FB1,RV1-2",
     "variants": []
   },
   "sheets": [
