@@ -2775,16 +2775,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 78.74) (xy 85.09 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2faa65b8-4e70-4162-a978-facc9f65d0e1")
-	)
-	(wire
-		(pts
 			(xy 24.13 68.58) (xy 95.25 68.58)
 		)
 		(stroke
@@ -2852,16 +2842,6 @@
 			(type default)
 		)
 		(uuid "41b3ec18-caf2-4a49-95d1-188af57d5158")
-	)
-	(wire
-		(pts
-			(xy 63.5 78.74) (xy 41.91 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "438b932d-5fc4-41f1-91e4-2044b58de66e")
 	)
 	(wire
 		(pts
@@ -3072,6 +3052,16 @@
 			(type default)
 		)
 		(uuid "83468358-9f16-4c5b-bd19-b61f68a972f7")
+	)
+	(wire
+		(pts
+			(xy 41.91 78.74) (xy 63.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b8d3cb-38fe-435b-a902-fa8c24694ed7")
 	)
 	(wire
 		(pts
@@ -3393,7 +3383,67 @@
 		)
 		(uuid "fda3d1c6-3b99-4a8b-b094-de924eddef06")
 	)
-	(label "L_FILTERED"
+	(wire
+		(pts
+			(xy 71.12 78.74) (xy 85.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4e9695-e14e-4608-b5b0-a64637edf91c")
+	)
+	(label "AC_RELAY2_RC_SNUBBER_2"
+		(at 232.41 43.18 0)
+		(effects
+			(font
+				(size 0.4 0.4)
+			)
+			(justify left bottom)
+		)
+		(uuid "09279f8a-a65a-4888-9a35-bc4aa429abed")
+	)
+	(label "AC_L_INPUT_RELAY"
+		(at 86.36 53.34 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "117d7c52-5533-4648-955a-ffe04e8219ee")
+	)
+	(label "RELAY1_COIL_2"
+		(at 52.07 60.96 0)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f3fde58-7994-4193-a4c3-c9dfbf5bc41d")
+	)
+	(label "AC_RELAY2_RC_SNUBBER_1"
+		(at 218.44 43.18 0)
+		(effects
+			(font
+				(size 0.4 0.4)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fa8c2f8-ebe9-4560-beb9-a0cf8519aeec")
+	)
+	(label "RELAY2_COIL_2"
+		(at 214.63 60.96 0)
+		(effects
+			(font
+				(size 0.3 0.3)
+			)
+			(justify left bottom)
+		)
+		(uuid "626c564a-cf65-4f3b-ae6a-255ff68b0061")
+	)
+	(label "AC_L_FILTERED"
 		(at 172.72 53.34 0)
 		(effects
 			(font
@@ -3402,6 +3452,96 @@
 			(justify left bottom)
 		)
 		(uuid "682a547b-7f1c-4d3e-a4d8-f39938a10b0a")
+	)
+	(label "RELAY_SWITCH_FLYBACK"
+		(at 43.18 78.74 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "71b4cbc4-d6c5-4171-b247-96ca542dd91c")
+	)
+	(label "AC_L_FUSED"
+		(at 33.02 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84b5e297-c741-47a2-a920-9014ae38e8cf")
+	)
+	(label "RELAY_SWITCH_G"
+		(at 71.12 88.9 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d1ccd1a-2146-419e-aa32-4ace00807a3c")
+	)
+	(label "AC_RELAY1_RC_SNUBBER_1"
+		(at 57.15 43.18 0)
+		(effects
+			(font
+				(size 0.4 0.4)
+			)
+			(justify left bottom)
+		)
+		(uuid "8feab632-5bbd-4898-9e41-95411b231117")
+	)
+	(label "SOFT_SWITCH_FLYBACK"
+		(at 207.01 72.39 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "95084ea2-b895-4bd9-8668-247375bdd9c6")
+	)
+	(label "SOFT_SWITCH_D"
+		(at 234.95 72.39 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e7376b4-8957-42a2-99cd-b33b7e9c0d91")
+	)
+	(label "RELAY_SWITCH_D"
+		(at 71.12 78.74 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "aba2a21b-d41c-43f0-a2e1-70a982187849")
+	)
+	(label "SOFT_SWITCH_G"
+		(at 233.68 82.55 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6100c75-cd54-47c1-857a-f2bc894680bc")
+	)
+	(label "AC_RELAY1_RC_SNUBBER_2"
+		(at 69.85 43.18 0)
+		(effects
+			(font
+				(size 0.4 0.4)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0314782-cc3b-48cb-aec2-2b4d6e26c0bf")
 	)
 	(hierarchical_label "AC_N_OUT"
 		(shape output)
@@ -3469,6 +3609,60 @@
 		)
 		(uuid "dc461551-01a1-4528-b122-795035f6a1e9")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 0 0) (xy 297.18 0) (xy 297.18 210.82) (xy 0 210.82)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "01f10755-d64a-4e3e-aaa8-2bb522b0a867")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 172.72 0 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1203003-3de6-432b-854b-e34019a571db")
+		(property "Netclass" "Primary"
+			(at 173.4185 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -102.87 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 73.66 95.25 0)
@@ -3480,7 +3674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06f5a48d-2bbc-4dba-b539-148b08859cca")
-		(property "Reference" "R85"
+		(property "Reference" "R93"
 			(at 77.47 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3533,6 +3727,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" "67"
+			(at 73.66 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" "40819410"
+			(at 73.66 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c0a36868-955a-42be-9040-5d00985aaf56")
 		)
@@ -3542,7 +3758,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "R85")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -3559,7 +3775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0878d073-c054-4ef0-872a-82c419a274a3")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0128"
 			(at 148.59 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3619,7 +3835,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "#PWR0133")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -3637,7 +3853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1061e39f-8e47-473d-a0cd-2255d1f5722b")
-		(property "Reference" "RV2"
+		(property "Reference" "RV1"
 			(at 97.79 59.8832 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3659,7 +3875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Varistor:RV_Disc_D15.5mm_W5mm_P7.5mm"
 			(at 93.472 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -3758,6 +3974,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" ""
+			(at 95.25 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
+			(at 95.25 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fff5585e-d9df-4775-8a00-00f5df7b73e7")
 		)
@@ -3767,7 +4005,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "RV2")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -3910,6 +4148,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" "54"
+			(at 128.27 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" "7448258022"
+			(at 128.27 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "629cd5d9-3cdf-4589-bb5e-c425c56fc114")
 		)
@@ -3943,7 +4203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1350afe3-a0e2-4494-8572-edb0df42bbd0")
-		(property "Reference" "D29"
+		(property "Reference" "D33"
 			(at 67.31 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4018,6 +4278,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" ""
+			(at 67.31 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
+			(at 67.31 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8702c9a4-ccc2-4019-acd2-dc5eec101c21")
 		)
@@ -4027,7 +4309,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "D29")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -4159,6 +4441,28 @@
 				(justify left top)
 			)
 		)
+		(property "Part-DB ID" "56"
+			(at 67.31 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" "2071556-1"
+			(at 67.31 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8b114c18-58af-43bf-9127-22ff144bee10")
 		)
@@ -4191,7 +4495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ee0a600-d2e6-40c1-a5c7-3702f1326658")
-		(property "Reference" "R87"
+		(property "Reference" "R95"
 			(at 210.82 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4244,6 +4548,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" ""
+			(at 210.82 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
+			(at 210.82 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4d50019-6c06-4448-983a-37377c8a8056")
 		)
@@ -4253,7 +4579,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "R87")
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -4270,7 +4596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "366c9520-b14b-47f1-9429-243628d10560")
-		(property "Reference" "C50"
+		(property "Reference" "C45"
 			(at 67.564 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4290,7 +4616,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
 			(at 67.31 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4323,7 +4649,29 @@
 				)
 			)
 		)
-		(property "Mouser No:" "505-MKX2AW31004CMSSD"
+		(property "Mouser No:" "710-890324023023"
+			(at 67.31 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" ""
+			(at 67.31 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
 			(at 67.31 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -4343,7 +4691,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "C50")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -4361,7 +4709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b52962f-8643-425a-b073-c6986e16b25d")
-		(property "Reference" "C53"
+		(property "Reference" "C48"
 			(at 154.94 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,6 +4775,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" ""
+			(at 152.4 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
+			(at 152.4 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e89cb29-d3de-4408-9a50-9a623bbadc1c")
 		)
@@ -4436,7 +4806,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "C53")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -4454,7 +4824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76abb253-3b26-4691-80b7-6a7d63b22f8a")
-		(property "Reference" "C51"
+		(property "Reference" "C46"
 			(at 111.76 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4465,13 +4835,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 111.76 62.2299 0)
+		(property "Value" "100n, >230AC"
+			(at 111.76 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -4520,6 +4890,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" ""
+			(at 107.95 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
+			(at 107.95 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "77747d59-f902-4b41-8d1f-7edaa28c62c5")
 		)
@@ -4529,7 +4921,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "C51")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -4546,7 +4938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79899a08-6e43-4d5a-92ed-0338a9a39926")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0129"
 			(at 204.216 56.134 0)
 			(hide yes)
 			(show_name no)
@@ -4606,7 +4998,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "#PWR0134")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -4623,7 +5015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e1128d4-aac0-4c41-b787-7a0de14ac8a7")
-		(property "Reference" "R86"
+		(property "Reference" "R94"
 			(at 80.01 38.354 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,17 +5025,17 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 80.01 40.894 90)
+		(property "Value" "100, >230Vac"
+			(at 80.01 40.132 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 80.01 44.958 90)
 			(hide yes)
 			(show_name no)
@@ -4676,6 +5068,39 @@
 				)
 			)
 		)
+		(property "Mouser No:" "603-CFR-50JR-52-100R"
+			(at 80.01 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" ""
+			(at 80.01 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
+			(at 80.01 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0861411d-740d-4a54-a66e-1b8136fed200")
 		)
@@ -4685,7 +5110,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "R86")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -4703,7 +5128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87511510-7b3a-40a4-8fe7-b9e8e9abd4e4")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0127"
 			(at 84.836 101.346 0)
 			(hide yes)
 			(show_name no)
@@ -4763,7 +5188,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "#PWR0132")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -4780,7 +5205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89140151-40c5-4531-bae9-b019f77687dc")
-		(property "Reference" "R83"
+		(property "Reference" "R91"
 			(at 48.26 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4833,6 +5258,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" ""
+			(at 48.26 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
+			(at 48.26 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79cc2f5b-ce15-4a8b-82ec-0463f9a0a789")
 		)
@@ -4842,7 +5289,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "R83")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -4859,7 +5306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89af5af5-6b1a-47b1-88ba-47cd5a081904")
-		(property "Reference" "C55"
+		(property "Reference" "C50"
 			(at 230.124 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4879,7 +5326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
 			(at 229.87 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4912,7 +5359,29 @@
 				)
 			)
 		)
-		(property "Mouser No:" "505-MKX2AW31004CMSSD"
+		(property "Mouser No:" "710-890324023023"
+			(at 229.87 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" ""
+			(at 229.87 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
 			(at 229.87 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -4932,7 +5401,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "C55")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -4950,7 +5419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0992282-fd7b-4d73-8a8b-8f5ccaea960c")
-		(property "Reference" "D30"
+		(property "Reference" "D34"
 			(at 229.87 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5025,6 +5494,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" ""
+			(at 229.87 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
+			(at 229.87 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2dcc365c-51a1-4906-ae79-5b435fd6aae8")
 		)
@@ -5034,7 +5525,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "D30")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -5051,7 +5542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad48cd54-1524-46f8-ae1e-98a683f17485")
-		(property "Reference" "R84"
+		(property "Reference" "R92"
 			(at 66.294 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5106,6 +5597,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" "66"
+			(at 67.31 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" "40819310"
+			(at 67.31 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e8999d4c-b928-4ea5-9d25-c6d15e220ddd")
 		)
@@ -5115,7 +5628,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "R84")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -5133,7 +5646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1f3696a-867a-4584-9704-e72178a52b2f")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0130"
 			(at 247.396 94.996 0)
 			(hide yes)
 			(show_name no)
@@ -5193,7 +5706,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "#PWR0135")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -5210,7 +5723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b93e2c91-4427-4eda-aded-73255e84739a")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0126"
 			(at 41.656 56.134 0)
 			(hide yes)
 			(show_name no)
@@ -5270,7 +5783,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "#PWR0131")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -5288,7 +5801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c37472d6-c465-4239-aeee-6bb1f2e29b51")
-		(property "Reference" "C52"
+		(property "Reference" "C47"
 			(at 146.05 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5354,6 +5867,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" "59"
+			(at 143.51 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" "F340Y232230MFP2B0"
+			(at 143.51 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ebb0c7e0-2e65-404a-bade-8e8a05fe065b")
 		)
@@ -5363,7 +5898,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "C52")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -5400,7 +5935,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 87.63 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5457,6 +5992,39 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 82.55 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No:" "241-PJA3412_R1_00001"
+			(at 82.55 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" ""
+			(at 82.55 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
+			(at 82.55 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5610,6 +6178,28 @@
 				(justify left top)
 			)
 		)
+		(property "Part-DB ID" "56"
+			(at 229.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" "2071556-1"
+			(at 229.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "78298da1-6b6b-4049-a5d5-4823f112f9fe")
 		)
@@ -5642,7 +6232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc101b3c-0847-4d9c-9bc4-4db654499ad5")
-		(property "Reference" "R91"
+		(property "Reference" "R99"
 			(at 242.57 38.354 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,17 +6242,17 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 242.57 40.894 90)
+		(property "Value" "100, >230Vac"
+			(at 242.57 40.132 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 242.57 44.958 90)
 			(hide yes)
 			(show_name no)
@@ -5695,6 +6285,39 @@
 				)
 			)
 		)
+		(property "Mouser No:" "603-CFR-50JR-52-100R"
+			(at 242.57 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" ""
+			(at 242.57 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
+			(at 242.57 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6fc05a8a-18b5-4802-b1fd-3ec78f71f915")
 		)
@@ -5704,7 +6327,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "R91")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -5721,7 +6344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ceec8d25-8ead-4609-986a-1e1544de42a3")
-		(property "Reference" "R89"
+		(property "Reference" "R97"
 			(at 228.854 78.232 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5776,6 +6399,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" "66"
+			(at 229.87 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" "40819310"
+			(at 229.87 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "297653e5-0fc4-4130-8880-c83a8826dba7")
 		)
@@ -5785,7 +6430,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "R89")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -5802,7 +6447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d941b860-61ef-42a3-8e9e-b269a5c2ac86")
-		(property "Reference" "R88"
+		(property "Reference" "R96"
 			(at 229.87 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5866,6 +6511,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" "58"
+			(at 229.87 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" "TWW20J27RE"
+			(at 229.87 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0d0f2c8-19e4-4a4a-b2bb-57e9feeff0b2")
 		)
@@ -5875,7 +6542,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "R88")
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -5912,7 +6579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 250.19 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5978,6 +6645,39 @@
 				)
 			)
 		)
+		(property "Mouser No:" "241-PJA3412_R1_00001"
+			(at 245.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" ""
+			(at 245.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
+			(at 245.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "81e43bbc-138e-4c1b-a1f7-f3dc739779b2")
 		)
@@ -6007,7 +6707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efef16d1-8255-4446-a23c-8abaf9d63c5a")
-		(property "Reference" "R90"
+		(property "Reference" "R98"
 			(at 240.03 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6060,6 +6760,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" "67"
+			(at 236.22 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" "40819410"
+			(at 236.22 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab88b242-a3a5-478c-bb4c-bf3b09143aa2")
 		)
@@ -6069,7 +6791,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "R90")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -6140,6 +6862,28 @@
 				)
 			)
 		)
+		(property "Part-DB ID" ""
+			(at 26.67 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
+			(at 26.67 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c117dd96-6915-4bf4-99cd-ebf82f4f179b")
 		)
@@ -6166,7 +6910,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f60203f3-fc83-475a-ad51-18615f83c984")
-		(property "Reference" "C49"
+		(property "Reference" "C44"
 			(at 53.594 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6186,7 +6930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
 			(at 53.34 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6219,7 +6963,29 @@
 				)
 			)
 		)
-		(property "Mouser No:" "505-MKX2AW31004CMSSD"
+		(property "Mouser No:" "710-890324023023"
+			(at 53.34 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" ""
+			(at 53.34 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
 			(at 53.34 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -6239,7 +7005,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "C49")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -6256,7 +7022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f862b51d-1a72-4c36-9fea-cf587daf679b")
-		(property "Reference" "C54"
+		(property "Reference" "C49"
 			(at 216.154 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6276,7 +7042,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
 			(at 215.9 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6309,7 +7075,29 @@
 				)
 			)
 		)
-		(property "Mouser No:" "505-MKX2AW31004CMSSD"
+		(property "Mouser No:" "710-890324023023"
+			(at 215.9 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" ""
+			(at 215.9 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB NAME" ""
 			(at 215.9 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -6329,7 +7117,7 @@
 		(instances
 			(project "power_board"
 				(path "/c8aad44b-d397-4b10-8f2c-430938609242/49c6131e-620b-4313-b33a-bd29335df1a4"
-					(reference "C54")
+					(reference "C49")
 					(unit 1)
 				)
 			)

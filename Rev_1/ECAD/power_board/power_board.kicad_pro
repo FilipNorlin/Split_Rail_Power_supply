@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +238,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -512,14 +525,1058 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 3.0,
+        "name": "AC",
+        "pcb_color": "rgb(44, 180, 0)",
+        "priority": 8,
+        "schematic_color": "rgb(0, 95, 255)",
+        "track_width": 3.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.5
+      },
+      {
+        "clearance": 1.0,
+        "name": "Gate_Driver",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.3
+      },
+      {
+        "name": "Primary",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 3.0,
+        "name": "Primary_HV_Power",
+        "pcb_color": "rgb(0, 71, 180)",
+        "priority": 11,
+        "schematic_color": "rgb(255, 156, 0)",
+        "track_width": 3.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.5
+      },
+      {
+        "name": "Primary_High_Current",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 12,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.5
+      },
+      {
+        "name": "Primary_Power_GND",
+        "pcb_color": "rgb(120, 120, 120)",
+        "priority": 10,
+        "schematic_color": "rgb(50, 50, 50)",
+        "track_width": 3.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.5
+      },
+      {
+        "name": "Primary_Sig_GND",
+        "pcb_color": "rgb(150, 150, 150)",
+        "priority": 9,
+        "schematic_color": "rgb(80, 80, 80)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "name": "Secondary",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Secondary_High_Current",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 7.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.5
+      },
+      {
+        "clearance": 1.0,
+        "name": "Secondary_Negative_Power",
+        "pcb_color": "rgb(0, 163, 180)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 6, 225)",
+        "track_width": 7.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.5
+      },
+      {
+        "clearance": 1.0,
+        "name": "Secondary_Positive_Power",
+        "pcb_color": "rgb(180, 163, 0)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 255, 66)",
+        "track_width": 7.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.5
+      },
+      {
+        "name": "Secondary_Power_GND",
+        "pcb_color": "rgb(120, 120, 120)",
+        "priority": 6,
+        "schematic_color": "rgb(120, 120, 120)",
+        "track_width": 7.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.5
+      },
+      {
+        "name": "Secondary_Sig_GND",
+        "pcb_color": "rgb(150, 150, 150)",
+        "priority": 5,
+        "schematic_color": "rgb(150, 150, 150)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "+12V_Primary": [
+        "Primary"
+      ],
+      "+12V_Secondary": [
+        "Secondary"
+      ],
+      "+3V3_Secondary": [
+        "Secondary"
+      ],
+      "+5V_Primary": [
+        "Primary"
+      ],
+      "+5V_Secondary": [
+        "Secondary"
+      ],
+      "+5V_USB": [
+        "Secondary"
+      ],
+      "+70V": [
+        "Secondary"
+      ],
+      "-5V": [
+        "Secondary"
+      ],
+      "-70V": [
+        "Secondary"
+      ],
+      "/AC_L": [
+        "Primary"
+      ],
+      "/AC_N": [
+        "Primary"
+      ],
+      "/Current Sensing/+": [
+        "Secondary"
+      ],
+      "/Current Sensing/-": [
+        "Secondary"
+      ],
+      "/Current Sensing/AD_TEMP_BOARD": [
+        "Secondary"
+      ],
+      "/Current Sensing/AD_TEMP_DIODE1": [
+        "Secondary"
+      ],
+      "/Current Sensing/AD_TEMP_DIODE2": [
+        "Secondary"
+      ],
+      "/Current Sensing/AD_TEMP_DIODE3": [
+        "Secondary"
+      ],
+      "/Current Sensing/AD_TEMP_DIODE_PRIM1": [
+        "Secondary"
+      ],
+      "/Current Sensing/AD_TEMP_DIODE_PRIM2": [
+        "Secondary"
+      ],
+      "/Current Sensing/AD_TEMP_NMOS_HS": [
+        "Secondary"
+      ],
+      "/Current Sensing/AD_TEMP_NMOS_LS": [
+        "Secondary"
+      ],
+      "/Current Sensing/AD_TEMP_TANSFORMER": [
+        "Secondary"
+      ],
+      "/Current Sensing/HW Protection/PRIM_CURRENT_VREF": [
+        "Primary"
+      ],
+      "/Current Sensing/HW Protection/SEC_CURRENT_VREF": [
+        "Secondary"
+      ],
+      "/Current Sensing/HW Protection/~{TRIG}": [
+        "Primary"
+      ],
+      "/Current Sensing/MUX_OUT": [
+        "Secondary"
+      ],
+      "/Current Sensing/PRIMARY_CURRENT_SENSE": [
+        "Primary"
+      ],
+      "/Current Sensing/PRIMARY_MUX_OUT": [
+        "Primary"
+      ],
+      "/Current Sensing/PRIM_BUS_VOLTAGE": [
+        "Primary"
+      ],
+      "/Current Sensing/PRIM_CURRENT_SENSE": [
+        "Primary"
+      ],
+      "/Current Sensing/SECONDARY_CURRENT_SENSE": [
+        "Secondary"
+      ],
+      "/Current Sensing/SEC_CURRENT_SENSE": [
+        "Secondary"
+      ],
+      "/Current Sensing/SEC_NEG_VOLTAGE": [
+        "Secondary"
+      ],
+      "/Current Sensing/SEC_POS_VOLTAGE": [
+        "Secondary"
+      ],
+      "/EN{slash}NC": [
+        "Primary"
+      ],
+      "/GATE_DRIVER_HI": [
+        "Secondary"
+      ],
+      "/GATE_DRIVER_HI_ISO": [
+        "Primary"
+      ],
+      "/GATE_DRIVER_LO": [
+        "Secondary"
+      ],
+      "/GATE_DRIVER_LO_ISO": [
+        "Primary"
+      ],
+      "/HG": [
+        "Primary"
+      ],
+      "/HS": [
+        "Primary"
+      ],
+      "/H_SW": [
+        "Primary"
+      ],
+      "/H_SW_NODE": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/AC_L_FILTERED": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/AC_L_FUSED": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/AC_L_INPUT_RELAY": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/AC_L_OUT": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/AC_N_OUT": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/AC_RELAY1_RC_SNUBBER_1": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/AC_RELAY1_RC_SNUBBER_2": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/AC_RELAY2_RC_SNUBBER_1": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/AC_RELAY2_RC_SNUBBER_2": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/RELAY1_COIL_2": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/RELAY2_COIL_2": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/RELAY_SWITCH_D": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/RELAY_SWITCH_G": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/SOFT_SWITCH_D": [
+        "Primary"
+      ],
+      "/Input Filter And Slow Start/SOFT_SWITCH_G": [
+        "Primary"
+      ],
+      "/LG": [
+        "Primary"
+      ],
+      "/LS": [
+        "Primary"
+      ],
+      "/L_SW": [
+        "Primary"
+      ],
+      "/L_SW_NODE": [
+        "Primary"
+      ],
+      "/MCU/ADC1": [
+        "Secondary"
+      ],
+      "/MCU/ADC2": [
+        "Secondary"
+      ],
+      "/MCU/BOOT0": [
+        "Secondary"
+      ],
+      "/MCU/CC1": [
+        "Secondary"
+      ],
+      "/MCU/CC2": [
+        "Secondary"
+      ],
+      "/MCU/D+": [
+        "Secondary"
+      ],
+      "/MCU/D-": [
+        "Secondary"
+      ],
+      "/MCU/FAN_PWM_1": [
+        "Secondary"
+      ],
+      "/MCU/FAN_PWM_2": [
+        "Secondary"
+      ],
+      "/MCU/PB14": [
+        "Secondary"
+      ],
+      "/MCU/PB15": [
+        "Secondary"
+      ],
+      "/MCU/POLLYFUSED": [
+        "Secondary"
+      ],
+      "/MCU/PWM_1": [
+        "Secondary"
+      ],
+      "/MCU/PWM_2": [
+        "Secondary"
+      ],
+      "/MCU/RCC_OSC_IN": [
+        "Secondary"
+      ],
+      "/MCU/RCC_OSC_OUT": [
+        "Secondary"
+      ],
+      "/MCU/STM_D+": [
+        "Secondary"
+      ],
+      "/MCU/STM_D-": [
+        "Secondary"
+      ],
+      "/MCU/SWCLK": [
+        "Secondary"
+      ],
+      "/MCU/SWDIO": [
+        "Secondary"
+      ],
+      "/MCU/TACHO_1": [
+        "Secondary"
+      ],
+      "/MCU/TACHO_2": [
+        "Secondary"
+      ],
+      "/MCU/TIM1_BKN": [
+        "Secondary"
+      ],
+      "/MCU/TIM2_CH2": [
+        "Secondary"
+      ],
+      "/MCU/WDI": [
+        "Secondary"
+      ],
+      "/MCU/~{MR}": [
+        "Secondary"
+      ],
+      "/MCU/~{RST}": [
+        "Secondary"
+      ],
+      "/NEG_RECTIFIED": [
+        "Secondary"
+      ],
+      "/NEG_SNUB": [
+        "Secondary"
+      ],
+      "/POS_RECTIFIED": [
+        "Secondary"
+      ],
+      "/POS_SNUB": [
+        "Secondary"
+      ],
+      "/PRIM_MUX_SELECT": [
+        "Secondary"
+      ],
+      "/QH'": [
+        "Secondary"
+      ],
+      "/RCLK": [
+        "Secondary"
+      ],
+      "/RELAY_SOFT_SWITCH": [
+        "Secondary"
+      ],
+      "/RELAY_SWITCH": [
+        "Secondary"
+      ],
+      "/S10": [
+        "Secondary"
+      ],
+      "/S11": [
+        "Secondary"
+      ],
+      "/S12": [
+        "Secondary"
+      ],
+      "/S20": [
+        "Secondary"
+      ],
+      "/S21": [
+        "Secondary"
+      ],
+      "/S22": [
+        "Secondary"
+      ],
+      "/SEC_PRIM": [
+        "Secondary"
+      ],
+      "/SEC_SEC": [
+        "Secondary"
+      ],
+      "/SER": [
+        "Secondary"
+      ],
+      "/SRCLK": [
+        "Secondary"
+      ],
+      "/Startup Power/BOOTSTRAP": [
+        "Secondary"
+      ],
+      "/Startup Power/BUCK_5V": [
+        "Secondary"
+      ],
+      "/Startup Power/FB": [
+        "Secondary"
+      ],
+      "/Startup Power/SW": [
+        "Secondary"
+      ],
+      "/TEMP_MUX1": [
+        "Secondary"
+      ],
+      "/TEMP_MUX2": [
+        "Secondary"
+      ],
+      "/Y1": [
+        "Secondary"
+      ],
+      "/Y2": [
+        "Secondary"
+      ],
+      "/Y3": [
+        "Secondary"
+      ],
+      "/Y4": [
+        "Secondary"
+      ],
+      "/Y5": [
+        "Secondary"
+      ],
+      "/Y6": [
+        "Secondary"
+      ],
+      "/Y7": [
+        "Secondary"
+      ],
+      "/~{E}1": [
+        "Secondary"
+      ],
+      "/~{E}2": [
+        "Secondary"
+      ],
+      "/~{PRIM_OCP}": [
+        "Secondary"
+      ],
+      "/~{PRIM_OVP}": [
+        "Secondary"
+      ],
+      "/~{RELAY_SOFT_SWITCH}": [
+        "Primary"
+      ],
+      "/~{RELAY_SWITCH}": [
+        "Primary"
+      ],
+      "Earth_Protective": [
+        "Primary"
+      ],
+      "GND1": [
+        "Primary"
+      ],
+      "GND2": [
+        "Secondary"
+      ],
+      "Net-(C22-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(C23-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(C30-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(C31-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(C32-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(C33-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(C34-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(C36-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(C37-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(C41-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(C42-Pad1)": [
+        "Primary"
+      ],
+      "Net-(C43-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(C51-Pad1)": [
+        "Primary"
+      ],
+      "Net-(D1-K)": [
+        "Primary"
+      ],
+      "Net-(D10A-A)": [
+        "Secondary"
+      ],
+      "Net-(D11-A)": [
+        "Secondary"
+      ],
+      "Net-(D12-A)": [
+        "Secondary"
+      ],
+      "Net-(D13-A)": [
+        "Secondary"
+      ],
+      "Net-(D14-A)": [
+        "Secondary"
+      ],
+      "Net-(D15-A)": [
+        "Secondary"
+      ],
+      "Net-(D16-A)": [
+        "Secondary"
+      ],
+      "Net-(D17-A)": [
+        "Secondary"
+      ],
+      "Net-(D18-A)": [
+        "Secondary"
+      ],
+      "Net-(D26-COM)": [
+        "Secondary"
+      ],
+      "Net-(D35-Pad2)": [
+        "Primary"
+      ],
+      "Net-(D36-A)": [
+        "Primary"
+      ],
+      "Net-(D36-K)": [
+        "Primary"
+      ],
+      "Net-(D39-A)": [
+        "Primary"
+      ],
+      "Net-(D4-A)": [
+        "Primary"
+      ],
+      "Net-(D4-K)": [
+        "Primary"
+      ],
+      "Net-(D5-K)": [
+        "Primary"
+      ],
+      "Net-(Q1-B)": [
+        "Primary"
+      ],
+      "Net-(Q2-G)": [
+        "Primary"
+      ],
+      "Net-(Q3-G)": [
+        "Primary"
+      ],
+      "Net-(R1-Pad2)": [
+        "Secondary"
+      ],
+      "Net-(R103-Pad2)": [
+        "Primary"
+      ],
+      "Net-(R120-Pad1)": [
+        "Primary"
+      ],
+      "Net-(R126-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(R2-Pad2)": [
+        "Secondary"
+      ],
+      "Net-(R3-Pad2)": [
+        "Secondary"
+      ],
+      "Net-(R4-Pad2)": [
+        "Primary"
+      ],
+      "Net-(R5-Pad2)": [
+        "Primary"
+      ],
+      "Net-(R50-Pad2)": [
+        "Primary"
+      ],
+      "Net-(R53-Pad2)": [
+        "Secondary"
+      ],
+      "Net-(R60-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(R61-Pad1)": [
+        "Secondary"
+      ],
+      "Net-(R74-Pad2)": [
+        "Secondary"
+      ],
+      "Net-(R79-Pad2)": [
+        "Primary"
+      ],
+      "Net-(R80-Pad2)": [
+        "Primary"
+      ],
+      "Net-(R81-Pad2)": [
+        "Primary"
+      ],
+      "Net-(R82-Pad2)": [
+        "Primary"
+      ],
+      "Net-(R85-Pad2)": [
+        "Secondary"
+      ],
+      "Net-(R86-Pad2)": [
+        "Secondary"
+      ],
+      "Net-(U10-+)": [
+        "Primary"
+      ],
+      "Net-(U10--)": [
+        "Primary"
+      ],
+      "Net-(U13-OUT+)": [
+        "Secondary"
+      ],
+      "Net-(U13-OUT-)": [
+        "Secondary"
+      ],
+      "Net-(U14A--)": [
+        "Secondary"
+      ],
+      "Net-(U14B--)": [
+        "Secondary"
+      ],
+      "Net-(U15-+)": [
+        "Secondary"
+      ],
+      "Net-(U15--)": [
+        "Secondary"
+      ],
+      "Net-(U16-BP{slash}M)": [
+        "Primary"
+      ],
+      "Net-(U16-EN{slash}UV)": [
+        "Primary"
+      ],
+      "Net-(U20-C_{FLY+})": [
+        "Secondary"
+      ],
+      "Net-(U20-C_{FLY-})": [
+        "Secondary"
+      ],
+      "Net-(U25B--)": [
+        "Primary"
+      ],
+      "Net-(U26-DISCH)": [
+        "Primary"
+      ],
+      "Net-(U27A--)": [
+        "Secondary"
+      ],
+      "Net-(U27B--)": [
+        "Secondary"
+      ],
+      "Net-(U4-VDD)": [
+        "Primary"
+      ],
+      "Net-(U7-QA)": [
+        "Secondary"
+      ],
+      "Net-(U7-QB)": [
+        "Secondary"
+      ],
+      "Net-(U7-QC)": [
+        "Secondary"
+      ],
+      "Net-(U7-QD)": [
+        "Secondary"
+      ],
+      "Net-(U7-QE)": [
+        "Secondary"
+      ],
+      "Net-(U7-QF)": [
+        "Secondary"
+      ],
+      "Net-(U7-QG)": [
+        "Secondary"
+      ],
+      "Net-(U7-QH)": [
+        "Secondary"
+      ],
+      "PRIM_MUX_SELECT": [
+        "Primary"
+      ],
+      "PRIM_OCP": [
+        "Primary"
+      ],
+      "PRIM_OVP": [
+        "Primary"
+      ],
+      "PRIM_SGND": [
+        "Primary"
+      ],
+      "PRIM_SHUNT_H": [
+        "Primary"
+      ],
+      "PRIM_SHUNT_L": [
+        "Primary"
+      ],
+      "SEC_CURRENT_SENSE": [
+        "Secondary"
+      ],
+      "SEC_NEG_OVP": [
+        "Secondary"
+      ],
+      "SEC_OCP": [
+        "Secondary"
+      ],
+      "SEC_POS_OVP": [
+        "Secondary"
+      ],
+      "SEC_SGND": [
+        "Secondary"
+      ],
+      "SEC_SHUNT_H": [
+        "Secondary"
+      ],
+      "SEC_SHUNT_L": [
+        "Secondary"
+      ],
+      "VBUS": [
+        "Primary"
+      ],
+      "VBUS_USB": [
+        "Secondary"
+      ],
+      "unconnected-(J3-SBU1-PadA8)": [
+        "Secondary"
+      ],
+      "unconnected-(J3-SBU2-PadB8)": [
+        "Secondary"
+      ],
+      "unconnected-(J4-KEY-Pad7)": [
+        "Secondary"
+      ],
+      "unconnected-(J4-NC{slash}TDI-Pad8)": [
+        "Secondary"
+      ],
+      "unconnected-(J4-SWO{slash}TDO-Pad6)": [
+        "Secondary"
+      ],
+      "unconnected-(T1-Pad2)": [
+        "Primary"
+      ],
+      "unconnected-(T1-Pad3)": [
+        "Primary"
+      ],
+      "unconnected-(U23-PB7-Pad43)": [
+        "Secondary"
+      ],
+      "unconnected-(U23-PC14-Pad3)": [
+        "Secondary"
+      ],
+      "unconnected-(U23-PC15-Pad4)": [
+        "Secondary"
+      ],
+      "unconnected-(U23-VBAT-Pad1)": [
+        "Secondary"
+      ],
+      "unconnected-(U26-CONT-Pad5)": [
+        "Primary"
+      ],
+      "unconnected-(U28-Pad7)": [
+        "Secondary"
+      ],
+      "unconnected-(U28B-+-Pad5)": [
+        "Secondary"
+      ],
+      "unconnected-(U28B---Pad6)": [
+        "Secondary"
+      ],
+      "unconnected-(U4-NC-Pad10)": [
+        "Primary"
+      ],
+      "unconnected-(U4-NC-Pad14)": [
+        "Primary"
+      ],
+      "unconnected-(U4-NC-Pad8)": [
+        "Primary"
+      ],
+      "unconnected-(U4-NC-Pad9)": [
+        "Primary"
+      ],
+      "unconnected-(U5-Pad10)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad11)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad12)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad15)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad16)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad17)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad18)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad19)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad2)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad21)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad22)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad23)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad24)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad25)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad3)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad4)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad5)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad6)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad7)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad8)": [
+        "Secondary"
+      ],
+      "unconnected-(U5-Pad9)": [
+        "Secondary"
+      ],
+      "unconnected-(U7-QH'-Pad9)": [
+        "Secondary"
+      ],
+      "unconnected-(U8-NC-Pad7)": [
+        "Secondary"
+      ],
+      "unconnected-(U9-NC-Pad7)": [
+        "Secondary"
+      ],
+      "~{PRIM_MUX_SELECT}": [
+        "Primary"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Primary_HV_Power",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "Primary_Power_GND",
+        "pattern": "GND1"
+      },
+      {
+        "netclass": "Primary_Sig_GND",
+        "pattern": "PRIM_SGND"
+      },
+      {
+        "netclass": "AC",
+        "pattern": "/AC*"
+      },
+      {
+        "netclass": "AC",
+        "pattern": "/Input Filter And Slow Start/AC*"
+      },
+      {
+        "netclass": "Primary_HV_Power",
+        "pattern": "/H_SW_NODE"
+      },
+      {
+        "netclass": "Primary_HV_Power",
+        "pattern": "/L_SW_NODE"
+      },
+      {
+        "netclass": "Primary",
+        "pattern": "/Startup Power/AUX_PRIM"
+      },
+      {
+        "netclass": "Secondary",
+        "pattern": "/Startup Power/AUX_SEC"
+      },
+      {
+        "netclass": "Secondary_Sig_GND",
+        "pattern": "SEC_SGND"
+      },
+      {
+        "netclass": "Secondary_Power_GND",
+        "pattern": "GND2"
+      },
+      {
+        "netclass": "Secondary_Positive_Power",
+        "pattern": "+70V"
+      },
+      {
+        "netclass": "Secondary_Positive_Power",
+        "pattern": "/POS_RECTIFIED"
+      },
+      {
+        "netclass": "Secondary_Positive_Power",
+        "pattern": "/SEC_PRIM"
+      },
+      {
+        "netclass": "Secondary_Positive_Power",
+        "pattern": "/POS_SNUB"
+      },
+      {
+        "netclass": "Secondary_Negative_Power",
+        "pattern": "-70V"
+      },
+      {
+        "netclass": "Secondary_Negative_Power",
+        "pattern": "/NEG_RECTIFIED"
+      },
+      {
+        "netclass": "Secondary_Negative_Power",
+        "pattern": "/SEC_SEC"
+      },
+      {
+        "netclass": "Secondary_Negative_Power",
+        "pattern": "/NEG_SNUB"
+      },
+      {
+        "netclass": "Secondary_High_Current",
+        "pattern": "SEC_SHUNT_H"
+      },
+      {
+        "netclass": "Secondary_High_Current",
+        "pattern": "SEC_SHUNT_L"
+      },
+      {
+        "netclass": "Primary_High_Current",
+        "pattern": "PRIM_SHUNT_H"
+      },
+      {
+        "netclass": "Primary_High_Current",
+        "pattern": "PRIM_SHUNT_L"
+      },
+      {
+        "netclass": "Gate_Driver",
+        "pattern": "/H_SW"
+      },
+      {
+        "netclass": "Gate_Driver",
+        "pattern": "/HG"
+      },
+      {
+        "netclass": "Gate_Driver",
+        "pattern": "/L_SW"
+      },
+      {
+        "netclass": "Gate_Driver",
+        "pattern": "/LG"
+      },
+      {
+        "netclass": "Primary_Power_GND",
+        "pattern": "Earth_Protective"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -541,7 +1598,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "../../PCB_files/Display/BOM/display.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -584,13 +1641,13 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -602,7 +1659,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -638,6 +1695,12 @@
           "group_by": false,
           "label": "Mouser No:",
           "name": "Mouser No:",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Part-DB NAME",
+          "name": "Part-DB NAME",
           "show": true
         },
         {
@@ -687,14 +1750,20 @@
           "label": "Mouser Price/Stock",
           "name": "Mouser Price/Stock",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Part-DB ID",
+          "name": "Part-DB ID",
+          "show": true
         }
       ],
-      "filter_string": "C",
+      "filter_string": "D",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Value"
+      "sort_asc": false,
+      "sort_field": "${QUANTITY}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -745,7 +1814,7 @@
         "uuid": "c8aad44b-d397-4b10-8f2c-430938609242"
       }
     ],
-    "used_designators": "TH1-7,SW1-2,F1-2,Q1-9,T1,#PWR1-194,Y1,U1-29,D1-38,C1-84,M1-2,R1-113,J1-5,K1-2,L1-4,FB1,RV1-2",
+    "used_designators": "TP1-17,T1,NT1-4,M1-2,L1-4,D1-45,#PWR1-219,Y1,U1-32,C1-90,FB1,SW1-2,K1-2,R1-126,RV1-3,Q1-9,TH1-9,F1-2,J1-5",
     "variants": []
   },
   "sheets": [
@@ -770,8 +1839,8 @@
       "MCU"
     ],
     [
-      "ff88370b-1696-4e04-941c-ae5f855f9f1d",
-      "SR Latch"
+      "7afb4a98-80f3-4995-b73d-960652fb7e34",
+      "HW Protection"
     ]
   ],
   "text_variables": {},
