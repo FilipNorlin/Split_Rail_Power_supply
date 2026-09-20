@@ -4,10 +4,10 @@
 # General Continuous-Time State-Space Form
 
 $$
-\dot{\mathbf{x}}(t) = A\mathbf{x}(t) + B\mathbf{u}(t)
-$$
-$$
-\mathbf{y}(t) = C\mathbf{x}(t) + D\mathbf{u}(t)
+	\dot{\mathbf{x}}(t) = A\mathbf{x}(t) + B\mathbf{u}(t)
+	$$
+	$$
+	\mathbf{y}(t) = C\mathbf{x}(t) + D\mathbf{u}(t)
 $$
 
 ---
