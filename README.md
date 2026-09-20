@@ -4,14 +4,19 @@
 # General Continuous-Time State-Space Form
 
 $$
+\begin{align}
 \dot{\mathbf{x}}(t) = A\mathbf{x}(t) + B\mathbf{u}(t)
+\end{align}
 $$
 $$
+\begin{align}
 \mathbf{y}(t) = C\mathbf{x}(t) + D\mathbf{u}(t)
+\end{align}
 $$
 ---
 
 $$
+\begin{align}
 \underbrace{ \left(
 \begin{matrix}
 \dot{x}_{1}(t) \\
@@ -53,9 +58,11 @@ B_{n}
 \right) }_{ B }
 
 u(t)
+\end{align}
 $$
 
 $$
+\begin{align}
 y(t) = \underbrace{ [C_{1}, C_{2},\dots C_{n}] }_{ C } 
 
 \underbrace{ \left(
@@ -70,6 +77,7 @@ x_{n}(t)
 +
 
 Du(t)
+\end{align}
 $$
 
 
