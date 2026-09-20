@@ -1,0 +1,239 @@
+(footprint "TO-220-3 with HeatSink"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.175 -4.445 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "90070b06-1e2e-40c4-b454-090797ef90a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 2.54 2.31 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ac18a7e5-cd83-48cc-a772-d83a7a9d9c97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f75eb18-f840-4fe7-a0d9-68af321123eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7c9f691-1e54-444d-b073-5946c658721b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.57 -3.26)
+		(end -2.57 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e850ba3e-ac8f-40c4-a5f0-3ea2e9a9c978")
+	)
+	(fp_line
+		(start -2.57 -3.26)
+		(end 7.65 -3.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cc57df8-9cf8-49ea-aab1-fdd0bc503d08")
+	)
+	(fp_line
+		(start -2.57 -1.88)
+		(end 7.65 -1.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47d1e0a6-4d9d-4712-898a-3bf402ebf068")
+	)
+	(fp_line
+		(start -2.57 1.36)
+		(end 7.65 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bc4f999-a837-4f0b-89e7-4d767f26e511")
+	)
+	(fp_line
+		(start 0.69 -3.26)
+		(end 0.69 -1.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5556a74f-90e8-400d-ac8a-80ed4ba1fd82")
+	)
+	(fp_line
+		(start 4.39 -3.26)
+		(end 4.39 -1.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a376cdb0-d96f-4a1d-93b6-67782f3274e1")
+	)
+	(fp_line
+		(start 7.65 -3.26)
+		(end 7.65 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98de8f30-ddda-484d-a3dc-2bdb717b0499")
+	)
+	(fp_rect
+		(start 7.79 1.5)
+		(end -2.71 -3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e4f80b68-1363-44af-8813-ada21f7e4667")
+	)
+	(fp_line
+		(start -2.46 -1.88)
+		(end 7.54 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c5cf2ab-dd0f-4d78-b016-98224cc48d20")
+	)
+	(fp_line
+		(start 0.69 -3.15)
+		(end 0.69 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aaa74513-32a5-449e-af23-92cae2b866de")
+	)
+	(fp_line
+		(start 4.39 -3.15)
+		(end 4.39 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a29a10f-0082-4c9c-aa5c-946fee61edde")
+	)
+	(fp_rect
+		(start -2.46 -3.15)
+		(end 7.54 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bf3a36c1-585b-405a-96c4-bb44aad28949")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "46c44f31-1ff5-4f46-9318-c45f31f7849e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50989153-d28c-4895-bbc7-817f05f3daf0")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43956bcd-863f-4d45-b189-0acda33605ad")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d97aec4c-f9e0-4d0e-b6cd-f618b9b2d43e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/../Kicad_lib/3d-models/Heat_Sink_TO-220_25mm.step"
+		(offset
+			(xyz 2.5 3 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -180)
+		)
+	)
+)

@@ -1,24 +1,38 @@
 # KiCad project files to keep
+
 !*.kicad_pro
 !*.kicad_sch
 !*.kicad_pcb
-!*.kicad_sym
 !*.kicad_mod
 !*.lib
 !*.dcm
 
+# Ignore packed symbol libraries
+*.kicad_sym
+
+# Keep individual symbols in .kicad_symdir libraries
+!*.kicad_symdir/
+!*.kicad_symdir/**/*.kicad_sym
+
+# But keep symbols inside symbol directories
+!*.kicad_symdir/
+!*.kicad_symdir/**/*.kicad_sym
+
 # Project backup and autosave
+
 *.bak
 *.tmp
 *~
 
 # KiCad backup/autosave files
+
 *.0001.kicad_sch
 *.0001.kicad_pcb
 *.autosave.kicad_pcb
 *.autosave.kicad_sch
 
 # User-specific settings (don't sync across machines)
+
 *.kicad_prl
 *.kicad_wks
 *.kicad_dru
@@ -26,6 +40,7 @@
 fp-info-cache
 
 # Simulation files
+
 *.raw
 *.log
 *.cir
@@ -38,10 +53,11 @@ fp-info-cache
 *.spice
 
 # Generated outputs (optional – keep if you want outputs in repo)
+
 *.pdf
 *.ps
 *.svg
-#*.png
+*.png
 *.bom
 *.xml
 *.csv
@@ -59,10 +75,12 @@ fp-info-cache
 *.zip
 
 # Build artifacts
+
 /build/
 /output/
 /fabrication/
 
 # OS-specific
+
 .DS_Store
 Thumbs.db
