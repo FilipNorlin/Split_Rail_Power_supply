@@ -1,0 +1,274 @@
+(footprint "Resistor_THT_Power_Axial_WW20W_P27mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TWW20J27RE-3")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at 3.75 -1.905 0)
+		(layer "F.SilkS")
+		(uuid "c47b14d7-760b-409d-ac43-b53e5f14880e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TWW20J27RE"
+		(at 3.75 -1.905 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ad45d288-54f2-45ae-a5b5-c00b7776ea12")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f45a5c0b-64f8-4169-b67b-f8cb73d4f059")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbd0b09b-83c9-4ff4-b13f-7d0166138ce1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.8 0)
+		(end -6.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c27ace79-ab5e-4887-91d0-0cec2a8969a5")
+	)
+	(fp_line
+		(start -6.7 0)
+		(end -6.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86b52b8d-9266-475a-b9b4-78e0d314b429")
+	)
+	(fp_line
+		(start -6.25 -8.405)
+		(end 13.75 -8.405)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d83922c-911e-4fc7-a8d7-3ac52a93903f")
+	)
+	(fp_line
+		(start -6.25 4.595)
+		(end -6.25 -8.405)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8288b1eb-85c5-4b6d-b11b-85ea9b7142a0")
+	)
+	(fp_line
+		(start 13.75 -8.405)
+		(end 13.75 4.595)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18bd1234-e18f-4505-b887-eaa3f8bbaf45")
+	)
+	(fp_line
+		(start 13.75 4.595)
+		(end -6.25 4.595)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72423ce5-fb39-4091-9af4-0484d3b0acd0")
+	)
+	(fp_arc
+		(start -6.8 0)
+		(mid -6.75 -0.05)
+		(end -6.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d97905d6-5bd6-4b9a-99a7-8250889bfbd3")
+	)
+	(fp_arc
+		(start -6.7 0)
+		(mid -6.75 0.05)
+		(end -6.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35454fba-e123-4c62-96a7-e104fe1cd49f")
+	)
+	(fp_line
+		(start -7.25 -9.405)
+		(end 14.75 -9.405)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31177821-e60f-48bf-9bff-1655984d0028")
+	)
+	(fp_line
+		(start -7.25 5.595)
+		(end -7.25 -9.405)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66d55a26-af62-4b73-be1c-10e50374244b")
+	)
+	(fp_line
+		(start 14.75 -9.405)
+		(end 14.75 5.595)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c568cef-1945-4c45-a0cb-c74e039e64d9")
+	)
+	(fp_line
+		(start 14.75 5.595)
+		(end -7.25 5.595)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15428921-f12f-446d-b14f-1b0cd1347021")
+	)
+	(fp_line
+		(start -6.25 -8.405)
+		(end 13.75 -8.405)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff52624b-7f10-48e2-ba09-34e32d85044c")
+	)
+	(fp_line
+		(start -6.25 4.595)
+		(end -6.25 -8.405)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e347cf83-0d2d-408d-9e74-5ea52224305e")
+	)
+	(fp_line
+		(start 13.75 -8.405)
+		(end 13.75 4.595)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3e9045c-2d90-44e1-bc3d-8a87d7c86d3f")
+	)
+	(fp_line
+		(start 13.75 4.595)
+		(end -6.25 4.595)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8309ff01-8c60-4ac8-a982-525a34c0e647")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.75 -1.905 0)
+		(layer "F.Fab")
+		(uuid "be87812f-9726-4166-81a9-966b465dd380")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -3.81)
+		(size 1.1 1.1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "504662e0-bb5e-46de-aff3-6dcfb52a7cf6")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.1 1.1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8aa17522-7345-4384-a3d5-f15bb1adfc74")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 -3.81)
+		(size 1.1 1.1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2da1db46-9c6c-4a49-9652-dff8dc1a98e4")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 1.1 1.1)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "510b51cd-690c-42f9-a1f1-f2e9b439d814")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Kicad_lib/3d-models/Resistor_Axial_Power_WW20W_27mm.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
