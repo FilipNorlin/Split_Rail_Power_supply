@@ -14,52 +14,45 @@ $$
 
 
 $$
-\underbrace{ \left(
-\begin{matrix}
-\dot{x}_{1}(t) \\
-\dot{x}_{2}(t) \\
-\dots \\
-\dot{x}_{n}(t)
-\end{matrix}
-\right) }_{ \dot{x}(t) }
-
-=
-
-\underbrace{ \left(
-\begin{matrix}
-A_{11}, A_{12} \dots A_{1n} \\
-A_{21}, A_{22} \dots A_{2n} \\
-\dots \\
-A_{n1}, A_{n2} \dots A_{nn}
-\end{matrix}
-\right) }_{ A }
-
-\underbrace{ \left(
-\begin{matrix}
-x_{1}(t) \\
-x_{2}(t) \\
-\dots \\
-x_{n}(t)
-\end{matrix}
-\right) }_{ x(t) }
-
-+ 
-
-\underbrace{ \left(
-\begin{matrix}
-B_{1} \\
-B_{2} \\
-\dots \\
-B_{n}
-\end{matrix}
-\right) }_{ B }
-
-u(t)
+	\underbrace{ \left(
+	\begin{matrix}
+		\dot{x}_{1}(t) \\
+		\dot{x}_{2}(t) \\
+		\dots \\
+		\dot{x}_{n}(t)
+	\end{matrix}
+	\right) }_{ \dot{x}(t) }
+	=
+	\underbrace{ \left(
+	\begin{matrix}
+	A_{11}, A_{12} \dots A_{1n} \\
+	A_{21}, A_{22} \dots A_{2n} \\
+	\dots \\
+	A_{n1}, A_{n2} \dots A_{nn}
+	\end{matrix}
+	\right) }_{ A }
+	\underbrace{ \left(
+	\begin{matrix}
+	x_{1}(t) \\
+	x_{2}(t) \\
+	\dots \\
+	x_{n}(t)
+	\end{matrix}
+	\right) }_{ x(t) }
+	+ 
+	\underbrace{ \left(
+	\begin{matrix}
+	B_{1} \\
+	B_{2} \\
+	\dots \\
+	B_{n}
+	\end{matrix}
+	\right) }_{ B }	
+	u(t)
 $$
 
 $$
 y(t) = \underbrace{ [C_{1}, C_{2},\dots C_{n}] }_{ C } 
-
 \underbrace{ \left(
 \begin{matrix}
 x_{1}(t) \\
@@ -68,9 +61,7 @@ x_{2}(t) \\
 x_{n}(t)
 \end{matrix}
 \right) }_{ x(t) }
-
 +
-
 Du(t)
 $$
 
@@ -106,9 +97,7 @@ The two switches are $180\degree$ out of phase. This means that the system will 
 $$
 \begin{align}
 v_{L_{A}}(t) &= L \frac{di_{\text{L}_{A}}(t)}{dt} \implies \frac{di_{\text{L}_{A}}(t)}{dt} = \frac{v_{\text{in}}(t)}{L} \\ \\
-
 v_{L_{B}}(t) &= L \frac{di_{\text{L}_{B}}(t)}{dt} \implies \frac{di_{\text{L}_{B}}(t)}{dt} = \frac{v_{\text{in}}(t)}{L} \\ \\
-
 i_{c}(t) &= C \frac{d v_{c}(t)}{dt} \implies \frac{d v_{c}(t)}{dt} = \frac{i_{c}(t)}{C} = -\frac{v_{\text{out}}(t)}{RC}
 \end{align}
 $$
@@ -120,9 +109,7 @@ Both switches are turned on thus both inductors are getting magnetized. The capa
 $$
 \begin{align}
 v_{L_{A}}(t) &= L \frac{di_{\text{L}_{A}}(t)}{dt} \implies \frac{di_{\text{L}_{A}}(t)}{dt} = \frac{v_{\text{in}}(t)}{L} \\ \\
-
 v_{L_{B}}(t) &= L \frac{di_{\text{L}_{B}}(t)}{dt} \implies \frac{di_{\text{L}_{B}}(t)}{dt} = \frac{v_{\text{in}}(t) - v_{\text{out}}(t)}{L} \\ \\
-
 i_{c}(t) &= C \frac{d v_{c}(t)}{dt} \implies \frac{d v_{c}(t)}{dt} = \frac{i_{c}(t)}{C} = \frac{i_{\text{L}_{B}}(t)}{C} -\frac{v_{\text{out}}(t)}{RC}
 \end{align}
 $$
@@ -134,9 +121,7 @@ Inductor A is still getting magnetized while inductor B is getting demagnetized.
 $$
 \begin{align}
 v_{L_{A}}(t) &= L \frac{di_{\text{L}_{A}}(t)}{dt} \implies \frac{di_{\text{L}_{A}}(t)}{dt} = \frac{v_{\text{in}}(t) - v_{\text{out}}(t)}{L} \\ \\
-
 v_{L_{B}}(t) &= L \frac{di_{\text{L}_{B}}(t)}{dt} \implies \frac{di_{\text{L}_{B}}(t)}{dt} = \frac{v_{\text{in}}(t)}{L} \\ \\
-
 i_{c}(t) &= C \frac{d v_{c}(t)}{dt} \implies \frac{d v_{c}(t)}{dt} = \frac{i_{c}(t)}{C} = \frac{i_{\text{L}_{A}}(t)}{C} -\frac{v_{\text{out}}(t)}{RC}
 \end{align}
 $$
@@ -148,9 +133,7 @@ Now Inductor B is getting magnetized while inductor A is getting demagnetized. T
 $$
 \begin{align}
 v_{L_{A}}(t) &= L \frac{di_{\text{L}_{A}}(t)}{dt} \implies \frac{di_{\text{L}_{A}}(t)}{dt} = \frac{v_{\text{in}}(t) - v_{\text{out}}(t)}{L} \\ \\
-
 v_{L_{B}}(t) &= L \frac{di_{\text{L}_{B}}(t)}{dt} \implies \frac{di_{\text{L}_{B}}(t)}{dt} = \frac{v_{\text{in}}(t) - v_{\text{out}}(t)}{L} \\ \\
-
 i_{c}(t) &= C \frac{d v_{c}(t)}{dt} \implies \frac{d v_{c}(t)}{dt} = \frac{i_{c}(t)}{C} = \frac{i_{\text{L}_{A}}(t) + i_{\text{L}_{B}}(t)}{C} -\frac{v_{\text{out}}(t)}{RC}
 \end{align}
 $$
@@ -158,4 +141,4 @@ $$
 In this last state both the switches are off meaning that both the inductors are getting demagnetized into the capacitor. Having two or more inductors switching with some offset will make the capacitor get charged more frequently thus reducing the voltage ripple on the output. 
 
 
-![[interleaved_pfc.png]]
+![interleaved_pfc.png](interleaved_pfc.png)
