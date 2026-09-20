@@ -4,51 +4,51 @@
 # General Continuous-Time State-Space Form
 
 $$
-	\dot{\mathbf{x}}(t) = A\mathbf{x}(t) + B\mathbf{u}(t)
-	$$
-	$$
-	\mathbf{y}(t) = C\mathbf{x}(t) + D\mathbf{u}(t)
+\dot{\mathbf{x}}(t) = A\mathbf{x}(t) + B\mathbf{u}(t)
+$$
+$$
+\mathbf{y}(t) = C\mathbf{x}(t) + D\mathbf{u}(t)
 $$
 
 ---
 
 
 $$
-	\underbrace{ \left(
-	\begin{matrix}
-		\dot{x}_{1}(t) \\
-		\dot{x}_{2}(t) \\
-		\dots \\
-		\dot{x}_{n}(t)
-	\end{matrix}
-	\right) }_{ \dot{x}(t) }
-	=
-	\underbrace{ \left(
-	\begin{matrix}
-	A_{11}, A_{12} \dots A_{1n} \\
-	A_{21}, A_{22} \dots A_{2n} \\
-	\dots \\
-	A_{n1}, A_{n2} \dots A_{nn}
-	\end{matrix}
-	\right) }_{ A }
-	\underbrace{ \left(
-	\begin{matrix}
-	x_{1}(t) \\
-	x_{2}(t) \\
-	\dots \\
-	x_{n}(t)
-	\end{matrix}
-	\right) }_{ x(t) }
-	+ 
-	\underbrace{ \left(
-	\begin{matrix}
-	B_{1} \\
-	B_{2} \\
-	\dots \\
-	B_{n}
-	\end{matrix}
-	\right) }_{ B }	
-	u(t)
+\underbrace{ \left(
+\begin{matrix}
+\dot{x}_{1}(t) \\
+\dot{x}_{2}(t) \\
+\dots \\
+\dot{x}_{n}(t)
+\end{matrix}
+\right) }_{ \dot{x}(t) }
+=
+\underbrace{ \left(
+\begin{matrix}
+A_{11}, A_{12} \dots A_{1n} \\
+A_{21}, A_{22} \dots A_{2n} \\
+\dots \\
+A_{n1}, A_{n2} \dots A_{nn}
+\end{matrix}
+\right) }_{ A }
+\underbrace{ \left(
+\begin{matrix}
+x_{1}(t) \\
+x_{2}(t) \\
+\dots \\
+x_{n}(t)
+\end{matrix}
+\right) }_{ x(t) }
++ 
+\underbrace{ \left(
+\begin{matrix}
+B_{1} \\
+B_{2} \\
+\dots \\
+B_{n}
+\end{matrix}
+\right) }_{ B }	
+u(t)
 $$
 
 $$
