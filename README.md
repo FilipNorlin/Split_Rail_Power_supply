@@ -4,19 +4,16 @@
 # General Continuous-Time State-Space Form
 
 $$
-\begin{align}
 \dot{\mathbf{x}}(t) = A\mathbf{x}(t) + B\mathbf{u}(t)
-\end{align}
 $$
 $$
-\begin{align}
 \mathbf{y}(t) = C\mathbf{x}(t) + D\mathbf{u}(t)
-\end{align}
 $$
+
 ---
 
+
 $$
-\begin{align}
 \underbrace{ \left(
 \begin{matrix}
 \dot{x}_{1}(t) \\
@@ -58,11 +55,9 @@ B_{n}
 \right) }_{ B }
 
 u(t)
-\end{align}
 $$
 
 $$
-\begin{align}
 y(t) = \underbrace{ [C_{1}, C_{2},\dots C_{n}] }_{ C } 
 
 \underbrace{ \left(
@@ -77,13 +72,13 @@ x_{n}(t)
 +
 
 Du(t)
-\end{align}
 $$
 
 
 # State Variables
 
 ## Large Signal Model
+
 $$
 \begin{align}
 	x &= 
@@ -117,6 +112,7 @@ v_{L_{B}}(t) &= L \frac{di_{\text{L}_{B}}(t)}{dt} \implies \frac{di_{\text{L}_{B
 i_{c}(t) &= C \frac{d v_{c}(t)}{dt} \implies \frac{d v_{c}(t)}{dt} = \frac{i_{c}(t)}{C} = -\frac{v_{\text{out}}(t)}{RC}
 \end{align}
 $$
+
 Both switches are turned on thus both inductors are getting magnetized. The capacitor isnt being charged at this point by any inductor meaning that it is only being discharged to the load, hence why the current is negative.
 
 #### State 2: $\text{q}_{\text{A}}$ high & $\text{q}_{\text{B}}$ low
@@ -144,6 +140,7 @@ v_{L_{B}}(t) &= L \frac{di_{\text{L}_{B}}(t)}{dt} \implies \frac{di_{\text{L}_{B
 i_{c}(t) &= C \frac{d v_{c}(t)}{dt} \implies \frac{d v_{c}(t)}{dt} = \frac{i_{c}(t)}{C} = \frac{i_{\text{L}_{A}}(t)}{C} -\frac{v_{\text{out}}(t)}{RC}
 \end{align}
 $$
+
 Now Inductor B is getting magnetized while inductor A is getting demagnetized. The energy from inductor A is being used to charge the output capacitor. 
 
 #### State 4: $\text{q}_{\text{A}}$ low & $\text{q}_{\text{B}}$ low
@@ -157,6 +154,8 @@ v_{L_{B}}(t) &= L \frac{di_{\text{L}_{B}}(t)}{dt} \implies \frac{di_{\text{L}_{B
 i_{c}(t) &= C \frac{d v_{c}(t)}{dt} \implies \frac{d v_{c}(t)}{dt} = \frac{i_{c}(t)}{C} = \frac{i_{\text{L}_{A}}(t) + i_{\text{L}_{B}}(t)}{C} -\frac{v_{\text{out}}(t)}{RC}
 \end{align}
 $$
+
 In this last state both the switches are off meaning that both the inductors are getting demagnetized into the capacitor. Having two or more inductors switching with some offset will make the capacitor get charged more frequently thus reducing the voltage ripple on the output. 
+
 
 ![[interleaved_pfc.png]]
